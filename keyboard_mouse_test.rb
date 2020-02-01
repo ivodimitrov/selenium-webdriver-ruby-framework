@@ -4,12 +4,14 @@ require "chromedriver-helper"
 
 # create a driver object
 driver = Selenium::WebDriver.for:chrome
+#maximize the window
+driver.manage.window.maximize
 # open Web Page 
 driver.navigate.to "https://formy-project.herokuapp.com/keypress" 
 
 # find the field for full name and send keys to that name field
 name = driver.find_element(id: 'name')
-name.send_keys('examples of commonly actions that are automated in WebDriver test')
+name.send_keys('Examples of commonly actions that are automated in WebDriver test.')
 
 # find the button called “button” and click it
 button = driver.find_element(id: 'button')
