@@ -1,4 +1,3 @@
-# load in the webdriver gem to interact with Selenium
 require "selenium-webdriver"
 require "chromedriver-helper"
 
