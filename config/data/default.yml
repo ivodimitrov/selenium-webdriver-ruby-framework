@@ -1,0 +1,6 @@
+# Credentials for login
+login:
+  partner_email: optimize@example.com
+  password: 1
+
+integration_credentials: {}
