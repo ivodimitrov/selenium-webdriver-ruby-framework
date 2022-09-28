@@ -1,0 +1,9 @@
+.DS_Store
+.bundle
+.idea
+.rakeTasks
+allure-report
+Gemfile.lock
+results
+selenium.log
+tmp

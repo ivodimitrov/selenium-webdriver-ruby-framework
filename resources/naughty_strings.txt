@@ -1,0 +1,5 @@
+# source: https://github.com/minimaxir/big-list-of-naughty-strings/blob/master/blns.txt
+
+-$1.00
+¯\_(ツ)_/¯
+1;DROP TABLE users
